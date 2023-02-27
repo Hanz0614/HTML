@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Lab Rules </title>
+			</head>
+			<style>
+			table,th,td
+			 {
+			  border: #000 solid 1px; color:black;
+			 }
+				</style>
+				<center>
+			<body style="color:black;">
+				<div style="box-shadow: 5px 10px black;
+							position: absolute;
+							left:40%
+							top:100px
+							background:black;
+							hieght: auto;
+							width:300px;
+							text-align:center"><!--division-->
+	    <p>Username:</br><input type="text" ></p>
+		<p>Password:</br><input type="password"></p>
+		<p><button>LOGIN</button></p>
+		<p><input style=" width:20px; hieght:20px; font-size:10px"
+								   type="checkbox"> Remember me</p>
+						</div> 
+						</center>
+		</body>
+</html>
+
