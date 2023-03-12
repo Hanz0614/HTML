@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="veiwport" content="width=device-width, initial-scale=1">
+<style>
+    body{
+        padding: 10px;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-gap: 5px
+    }
+    img{
+        width:100%;
+        border-radius: 20px;
+    }
+    html{
+        height:100%;
+        background:#223;
+        display:grid;
+    }
+    .box:hover{
+        box-shadow: 0 0 5px cyan,
+        0 0 25px cyan;
+        padding:10px;
+        border-radius: 20px;
+        --border-size:3px;
+        --border-angle:0turn;
+        width:60vmin;
+        height:50vmin;
+        background-image:conic-gradient(
+            from var(--border-angle),
+            #213,
+            #112 50%,
+            #213
+        ),
+        conic-gradient(
+            from var(--border-angle),
+            transparent 20%,
+            #2d00f7,
+            #c200fb,
+            #ec7d10,
+            #30f2f2,
+            #7cb518
+        );
+    }
+    h1{
+        text-align: center;
+        color:antiquewhite;
+        font-size: 72px;
+        position:relative;
+        cursor: pointer;
+        margin: 100px auto;
+    }
+    h1::after{
+        content:"";
+        position: absolute;
+        bottom: -5px;
+        height:4px;
+        width:100%;
+        left: 0;
+        background-color: #112;
+        transition: 0.3s;
+        transition-timing-function: ease-in-out;
+        transform: scaleX(0);
+    }
+    h1:hover::after{
+        transform: scaleX(1);
+    }
+    .body{
+        background-image: "https://img0.joyreactor.com/pics/post/full/gif-pixel-art-Sci-Fi-rolly-rocket-3007454.gif";
+    }
+</style>
+    </head>
+</html>
+<body>
+   <h1> My Top 10 Weapons</h1>
+    <div class="wrapper">
+        <div class="box"><img src="bg1.jpg">
+           
+        </div>
+
+        <div class="box"><img src="bg2.jpg"></div>
+        <div class="box"><img src="bg3.jpg"></div>
+        <div class="box"><img src="bg4.jpg"></div>
+        <div class="box"><img src="bg5.jpg"></div>
+        <div class="box"><img src="bg6.jpg"></div>
+        <div class="box"><img src="bg7.jpg"></div>
+        <div class="box"><img src="bg8.jpg"></div>
+        <div class="box"><img src="bg9.jpg"></div>
+        <div class="box"><img src="bg10.jpg"></div>
+    
+    </div>
+        
+</body>
